@@ -1,0 +1,36 @@
+{
+    "access-log-file": null,
+    "algo": "cryptonight",
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": true,
+        "restricted": true
+    },
+    "background": false,
+    "bind": [
+        "0.0.0.0:3333",
+        "[::]:3333"
+    ],
+    "colors": true,
+    "custom-diff": 0,
+    "donate-level": 0,
+    "log-file": null,
+    "mode": "nicehash",
+    "pools": [
+        {
+            "url": "pool.electroneum.hashvault.pro:80",
+            "user": "f4VR74XR616Tw2wAMMfaLV1vmYBSBBbmWXBUtaV8YDb6DHsfKRoYkFaCvhPhsGDDfm1afhzLNuf5XGFmNrvodPoQ6m4qB1iJhC31pY7h9LStD",
+            "pass": "x",
+            "variant": -1
+        }
+    ],
+    "retries": 2,
+    "retry-pause": 1,
+    "reuse-timeout": 0,
+    "user-agent": null,
+    "verbose": false,
+    "watch": true,
+    "workers": true
+}
